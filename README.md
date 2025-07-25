@@ -1,3 +1,14 @@
+# 🧠 Machine Learning Algorithms Explained with Python
+
+This repository contains detailed explanations and Python implementations of **five fundamental machine learning and data mining algorithms**:
+
+1. **Linear Regression**
+2. **Logistic Regression (Classification)**
+3. **Decision Trees**
+4. **K-Means Clustering**
+5. **Association Rules (Apriori Algorithm)**
+
+Each section includes a clear conceptual explanation and a practical Python implementation using libraries such as `scikit-learn`, `mlxtend`, `pandas`, and `matplotlib`.
 
 ---
 
@@ -38,6 +49,15 @@ An unsupervised learning algorithm that groups data into `k` clusters based on s
   - Inertia and convergence
   - Elbow method
 - **Implementation:** Using `sklearn.cluster.KMeans`
+
+### 🔹 5. Association Rules (Apriori Algorithm)
+A data mining technique used to uncover relationships between variables in large datasets.
+
+- **Concepts:**
+  - Frequent Itemsets
+  - Support, Confidence, Lift
+  - Market Basket Analysis
+- **Code:** With `mlxtend.frequent_patterns.apriori` and `association_rules`
 
 ---
 
